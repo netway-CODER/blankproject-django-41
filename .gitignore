@@ -1,6 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
+#*.py[cod]
 *$py.class
 
 # C extensions
@@ -32,7 +32,7 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
-
+*.pyc
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
@@ -57,9 +57,11 @@ coverage.xml
 
 # Django stuff:
 *.log
+*.bak
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+venv/
 
 # Flask stuff:
 instance/
